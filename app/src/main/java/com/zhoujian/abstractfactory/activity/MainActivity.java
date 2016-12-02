@@ -12,6 +12,7 @@ import butterknife.ButterKnife;
 import butterknife.InjectView;
 
 /**
+ *
 
  抽象工厂模式：
  工厂方法模式有一个问题就是，类的创建依赖工厂类，也就是说，如果想要拓展程序，必须对工厂类进行修改，
@@ -22,7 +23,8 @@ import butterknife.InjectView;
  */
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity
+{
 
     @InjectView(R.id.bt_send_mail)
     Button mBtSendMail;
